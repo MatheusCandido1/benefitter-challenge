@@ -15,10 +15,11 @@ This is my react implementation for the front-end challenge proposed by Benefitt
 ## Main Libraries
 - [uuidv4](https://github.com/thenativeweb/uuidv4)
 - [styled components](https://github.com/styled-components/styled-components)
-- [react-custom-checkbox]('https://github.com/LarvenLLC/react-custom-checkbox')
-- [react-icons]('https://github.com/react-icons/react-icons')
+- [react-custom-checkbox](https://github.com/LarvenLLC/react-custom-checkbox)
+- [react-icons](https://github.com/react-icons/react-icons)
 
 ## How to run
+
 1. ```git clone https://github.com/MatheusCandido1/salary-suggestor.git```
 
 2. ``` cd benefitter-challenge ```
