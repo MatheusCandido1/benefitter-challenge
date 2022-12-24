@@ -5,12 +5,11 @@ export const TaskContext = createContext();
 
 export function TaskProvider({ children }) {
     const [tasks, setTasks] = useState([
-        {id: 1, description: 'Read the book', isCompleted: false},
+        {id: v4(), description: 'Read the book', isCompleted: false},
+        {id: v4(), description: 'Buy dog food', isCompleted: false},
     ]);
 
-    const [completedTasks] = useState(tasks.filter(task => task.isCompleted));
-
-    console.log(completedTasks)
+    const completedTasks = tasks.filter(task => task.isCompleted);
 
 
     function addTask(description) {
