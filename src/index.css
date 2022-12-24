@@ -1,0 +1,21 @@
+:root {
+  --primary: #269FC3;
+  --text: #003A40;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: var(--text);
+}
