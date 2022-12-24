@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { TaskContainer, CloseButton, TaskTitle } from "./styles";
 import { useTasks } from "../../hooks/useTasks";
+import Checkbox from "react-custom-checkbox";
+
 
 import { IoClose } from "react-icons/io5";
+import { BsCheck } from "react-icons/bs";
 
 export function Task({ task }) {
     const [isCompleted, setIsCompleted] = useState(task.isCompleted);
@@ -18,8 +21,29 @@ export function Task({ task }) {
     }
     return (
         <TaskContainer>
-            <input type="checkbox" onChange={handleToggleTaskCompletion} checked={isCompleted} />
-            <TaskTitle isCompleted={task.isCompleted}>{task.description}</TaskTitle>
+            <div>
+                <Checkbox 
+                    checked={isCompleted}
+                    onChange={handleToggleTaskCompletion}
+                    icon={
+                        <div
+                            style={{
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center",
+                                border: 'none'
+                            }}
+                        >
+                        <BsCheck size={24} color="#18819D" />
+                        </div>
+                    }
+                    borderColor="#B7D8E1"
+                    borderRadius={2}
+                    borderWidth={1}
+                    size={20}
+                />
+                <TaskTitle isCompleted={task.isCompleted}>{task.description}</TaskTitle>
+            </div>
             <CloseButton onClick={handleRemoveTask}>
                 <IoClose size={24} />
             </CloseButton>
