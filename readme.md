@@ -7,7 +7,9 @@ This is my react implementation for the front-end challenge proposed by Benefitt
 ## Screenshots
 
 ![Inital State Screenshot](https://i.postimg.cc/bYnWyzxg/1.png)
+
 ![Some tasks completed Screenshot](https://i.postimg.cc/65NSTDzX/2.png)
+
 ![All tasks completed Screenshot](https://i.postimg.cc/7YMRzmQT/3.png)
 
 ## Main Libraries
