@@ -13,19 +13,19 @@ This is my react implementation for the front-end challenge proposed by Benefitt
 ![All tasks completed Screenshot](https://i.postimg.cc/7YMRzmQT/3.png)
 
 ## Main Libraries
-- [uuidv4][https://github.com/thenativeweb/uuidv4]
-- [styled components][https://github.com/styled-components/styled-components]
-- [react-custom-checkbox]['https://github.com/LarvenLLC/react-custom-checkbox']
-- [react-icons]['https://github.com/react-icons/react-icons']
+- [uuidv4](https://github.com/thenativeweb/uuidv4)
+- [styled components](https://github.com/styled-components/styled-components)
+- [react-custom-checkbox]('https://github.com/LarvenLLC/react-custom-checkbox')
+- [react-icons]('https://github.com/react-icons/react-icons')
 
 ## How to run
-```git clone https://github.com/MatheusCandido1/salary-suggestor.git```
+1. ```git clone https://github.com/MatheusCandido1/salary-suggestor.git```
 
-``` cd benefitter-challenge ```
+2. ``` cd benefitter-challenge ```
 
-``` npm install ``` or ``` yarn ```
+3. ``` npm install ``` or ``` yarn ```
 
-``` npm run dev ``` or ``` yarn dev ```
+4. ``` npm run dev ``` or ``` yarn dev ```
 
 ## Author
 @MatheusCandido1
