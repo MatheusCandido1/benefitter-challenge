@@ -20,7 +20,7 @@ This is my react implementation for the front-end challenge proposed by Benefitt
 
 ## How to run
 
-1. ```git clone https://github.com/MatheusCandido1/salary-suggestor.git```
+1. ```git clone https://github.com/MatheusCandido1/benefitter-challenge.git```
 
 2. ``` cd benefitter-challenge ```
 
